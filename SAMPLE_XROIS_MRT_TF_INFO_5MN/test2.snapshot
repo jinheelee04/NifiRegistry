@@ -29,66 +29,6 @@
           "destination" : {
             "comments" : "",
             "groupId" : "fa5d58fd-df8c-3151-be82-998cd63548fe",
-            "id" : "977a22cc-32fc-3830-a896-e79a5ddd37b0",
-            "name" : "ExecuteSQL",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "fa5d58fd-df8c-3151-be82-998cd63548fe",
-          "identifier" : "7b98d6d8-ba29-3698-ae6a-47a7be41f88f",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "matched" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "fa5d58fd-df8c-3151-be82-998cd63548fe",
-            "id" : "c48f4275-768d-3766-acb7-8d955fa92d0a",
-            "name" : "원천 데이터 수집 구문 쿼리 추출",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "fa5d58fd-df8c-3151-be82-998cd63548fe",
-            "id" : "c1e94f1d-48d4-3bb3-b638-8360de62c5a6",
-            "name" : "PutDatabaseRecord",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "fa5d58fd-df8c-3151-be82-998cd63548fe",
-          "identifier" : "635a60d0-a27b-3740-8350-b872400dd15a",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "fa5d58fd-df8c-3151-be82-998cd63548fe",
-            "id" : "977a22cc-32fc-3830-a896-e79a5ddd37b0",
-            "name" : "ExecuteSQL",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "fa5d58fd-df8c-3151-be82-998cd63548fe",
             "id" : "02aa4df0-9609-3910-afbc-62018ab60ef6",
             "name" : "원천 데이터셋 타입 분기(마스터/시계열)",
             "type" : "PROCESSOR"
